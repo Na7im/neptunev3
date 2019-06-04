@@ -16,7 +16,7 @@ client.on('guildMemberAdd', member =>{
     let embed = new Discord.RichEmbed()
         .setDescription(':tada: **' +member.user.username + '** a rejoint le discord ' + member.guild.name)
         .setFooter('Nous somme désormais ' + member.guild.memberCount )
-    member.guild.channels.get('581862135861084168').send(embed)
+    member.guild.channels.get('585152944937107457').send(embed)
 
 });
 
